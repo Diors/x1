@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: com.xonesoft.x1.xWebCore
+Implementation-Version: 1.0.0
+Built-By: qhp
+Implementation-Vendor-Id: com.xonesoft.x1
+Build-Jdk: 1.8.0_172
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/com.xonesoft.x1/com.xonesoft.x1.xWebCore
+Created-By: Maven Integration for Eclipse
+
