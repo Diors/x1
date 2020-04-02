@@ -8,14 +8,20 @@
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.xonesoft.x1</groupId>
-	<artifactId>com.xonesoft.x1.sso</artifactId>
+	<artifactId>com.xonesoft.x1.sso.core</artifactId>
 	<packaging>jar</packaging>
 
 
 	<dependencies>
 		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${javax.servlet-api.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
+			<version>${jedis.version}</version>
 		</dependency>
 	</dependencies>
 </project>

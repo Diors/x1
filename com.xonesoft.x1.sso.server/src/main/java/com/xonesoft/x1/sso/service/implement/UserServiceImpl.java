@@ -5,8 +5,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.xonesoft.x1.sso.core.entity.ReturnT;
-import com.xonesoft.x1.sso.model.UserInfo;
+import com.xonesoft.x1.sso.core.model.UserInfo;
+import com.xonesoft.x1.sso.core.result.ReturnT;
 import com.xonesoft.x1.sso.service.UserService;
 
 @Service

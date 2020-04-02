@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import com.xonesoft.x1.sso.core.store.SsoLoginStore;
 import com.xonesoft.x1.sso.core.util.JedisUtil;
 
+
 @Configuration
 public class XoneSsoConfig {
 	@Value("${xone.sso.redis.address}")

@@ -14,10 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.util.AntPathMatcher;
 
 import com.xonesoft.x1.sso.core.conf.Conf;
 import com.xonesoft.x1.sso.core.login.SsoWebLoginHelper;
+import com.xonesoft.x1.sso.core.path.impl.AntPathMatcher;
 import com.xonesoft.x1.sso.core.user.XoneSsoUser;
 
 public class XoneSsoWebFilter extends HttpServlet implements Filter {

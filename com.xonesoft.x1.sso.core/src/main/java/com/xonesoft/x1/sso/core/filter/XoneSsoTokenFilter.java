@@ -14,11 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.util.AntPathMatcher;
 
 import com.xonesoft.x1.sso.core.conf.Conf;
 import com.xonesoft.x1.sso.core.entity.ReturnT;
 import com.xonesoft.x1.sso.core.login.SsoTokenLoginHelper;
+import com.xonesoft.x1.sso.core.path.impl.AntPathMatcher;
 import com.xonesoft.x1.sso.core.user.XoneSsoUser;
 
 public class XoneSsoTokenFilter extends HttpServlet implements Filter {

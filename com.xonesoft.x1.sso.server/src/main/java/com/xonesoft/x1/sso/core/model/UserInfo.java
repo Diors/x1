@@ -1,4 +1,4 @@
-package com.xonesoft.x1.sso.model;
+package com.xonesoft.x1.sso.core.model;
 
 public class UserInfo {
 	private int userid;

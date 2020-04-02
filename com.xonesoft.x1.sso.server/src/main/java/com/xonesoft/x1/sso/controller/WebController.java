@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.xonesoft.x1.sso.core.conf.Conf;
-import com.xonesoft.x1.sso.core.entity.ReturnT;
 import com.xonesoft.x1.sso.core.login.SsoWebLoginHelper;
+import com.xonesoft.x1.sso.core.model.UserInfo;
+import com.xonesoft.x1.sso.core.result.ReturnT;
 import com.xonesoft.x1.sso.core.store.SsoLoginStore;
 import com.xonesoft.x1.sso.core.store.SsoSessionIdHelper;
 import com.xonesoft.x1.sso.core.user.XoneSsoUser;
-import com.xonesoft.x1.sso.model.UserInfo;
 import com.xonesoft.x1.sso.service.UserService;
 
 @Controller
