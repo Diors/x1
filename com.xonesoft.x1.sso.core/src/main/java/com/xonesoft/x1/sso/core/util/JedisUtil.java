@@ -74,7 +74,7 @@ public class JedisUtil {
                             // JedisShardInfo List
                             List<JedisShardInfo> jedisShardInfos = new LinkedList<JedisShardInfo>();
 
-                            String[] addressArr = address.split(",");
+                            String[] addressArr = "redis://127.0.0.1:6379".split(",");
                             for (int i = 0; i < addressArr.length; i++) {
                                 JedisShardInfo jedisShardInfo = new JedisShardInfo(addressArr[i]);
                                 jedisShardInfos.add(jedisShardInfo);
